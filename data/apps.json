@@ -1,0 +1,31 @@
+
+[
+  {
+    "name":"Neon Database",
+    "icon":"🪐",
+    "category":"Database",
+    "description":"Serverless PostgreSQL platform",
+    "tags":["postgres","serverless","cloud"]
+  },
+  {
+    "name":"Supabase",
+    "icon":"⚡",
+    "category":"Backend",
+    "description":"Open source Firebase alternative",
+    "tags":["auth","database","realtime"]
+  },
+  {
+    "name":"Astro",
+    "icon":"🚀",
+    "category":"Frontend",
+    "description":"Modern static framework",
+    "tags":["static","islands","fast"]
+  },
+  {
+    "name":"Obsidian",
+    "icon":"📚",
+    "category":"Knowledge",
+    "description":"Knowledge graph markdown workspace",
+    "tags":["markdown","notes","graph"]
+  }
+]
