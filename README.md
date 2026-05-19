@@ -1,22 +1,37 @@
+# DocsFuma GitHub Pages Ready
 
-# SpaceOS App Catalog
+Plně připravená verze pro GitHub Pages.
 
-Modern futuristic workspace / app catalog dashboard.
+## Instalace
 
-## Features
-- Mosaic/Grid view
-- Space/Tree explorer
-- Search + filters
-- JSON database
-- Lightweight AIO architecture
-- GitHub Pages ready
-- Tailwind-like design system
-- Vanilla JS
+```bash
+npm install
+npm run dev
+```
 
-## Run
-Open `index.html`
+## Build
 
-## Structure
-- src/css/style.css
-- src/js/app.js
-- data/apps.json
+```bash
+npm run build
+```
+
+## GitHub Pages Deploy
+
+1. Vytvoř nový GitHub repozitář
+2. Nahraj obsah projektu
+3. Pushni do větve `main`
+4. V GitHub:
+   - Settings → Pages
+   - Source → GitHub Actions
+
+Workflow automaticky:
+- nainstaluje dependencies
+- vytvoří static export
+- publikuje web na GitHub Pages
+
+## Lokální preview exportu
+
+```bash
+npm run build
+npx serve out
+```
